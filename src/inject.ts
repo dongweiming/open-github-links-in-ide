@@ -55,7 +55,7 @@ const run = async () => {
       return url
     },
     "intellij-idea": (repo: string, file: string, line?: string) => {
-      const url = `idea://open?file=${OPTIONS.localPathForRepositories}/${repo}/${file}&line=${line ?? "1"}`
+      const url = `jetbrains://idea/navigate/reference?project=${repo}&path=${file}:${line ?? "1"}`
       location.href = url
       return url
     },
@@ -65,7 +65,7 @@ const run = async () => {
       return url
     },
     goland: (repo: string, file: string, line?: string) => {
-      const url = `goland://open?file=${OPTIONS.localPathForRepositories}/${repo}/${file}&line=${line ?? "1"}`
+      const url = `jetbrains://goland/navigate/reference?project=${repo}&path=${file}:${line ?? "1"}`
       location.href = url
       return url
     },

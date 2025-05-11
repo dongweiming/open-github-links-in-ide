@@ -46,6 +46,8 @@ You can also use the built-in web server of any JetBrains editor (IDEA, WebStorm
 
 > To disable JetBrains warning "_'file' API is requested. Do you trust unknown host?_", you can go to `File > Settings > Build, Execution, Deployment > Debugger` and Check the _Allow unsigned requests_ in the _Built-in Server_ section.
 
+If you plan to use IntelliJ IDEA(or Goland), please make sure you have installed the [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/) first.
+
 ## New features & bugs
 
 Need a feature? Want to report a bug? Feel free to open an issue or a pull request!
@@ -67,6 +69,10 @@ Need a feature? Want to report a bug? Feel free to open an issue or a pull reque
 - The extension and the pages using it will be automatically reloaded when you modify the source code
 
 ## Changelog
+
+### Version 1.2.4 - May 11,2025
+
+- Fix bug: Support the latest scheme of idea
 
 ### Version 1.2.3 - September 23,2023
 
